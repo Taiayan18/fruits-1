@@ -1,0 +1,188 @@
+ header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+text-align: center;
+
+
+    background-color: #40bb52;
+    width: 220px;
+    color: white;
+}
+.icon{
+   height: 30px;
+}
+
+.im1{
+    width: 300px;
+}
+
+.s1{
+  margin-top: 100px;
+
+}
+
+.box{
+    letter-spacing: 0.4rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.card1{
+    height: 200px;
+    width: 500px;
+}
+
+.card2{
+    display: flex;
+    min-width: 35%;
+    align-items: center;
+}
+
+.card3{
+    height: 200px;
+    width: 500px;
+
+}
+.card4{
+    height: 200px;
+    width: 500px;
+    
+
+}
+.card5{
+    height: 200px;
+    width: 500px;
+    
+
+}
+.card6{
+    height: 200px;
+    width: 500px;
+    
+
+}
+
+.s2{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    overflow: hidden;
+    grid-template-columns: auto auto;
+   
+    
+}
+
+.menu{
+    
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+    .s1{
+        margin-top: 120px;
+        max-height: 300px;
+        
+    }
+    
+}
+
+@media(max-width:576px){
+    .input{
+        display: none;
+    }
+
+        .s1{
+        margin-top: 80px;
+        max-height: 250px;
+        
+    }
+}
+
+
+
+
+
+@media(max-width:1410px){
+    header ul li{
+        font-size: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    
+}
+
+
+
+@media(max-width:1320px){
+    header ul li{
+        font-size: 15px;
+    }
+
+    .card{
+        width: 150px;
+    }
+}
+
+
+@media(max-width:1082px){
+     header ul li{
+        font-size: 12px;
+    }
+
+   
+
+}
+
+@media(max-width:1010px){
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+ 
+
+    .box1 {
+        display: none;
+    }
+
+    .card{
+        margin-top: 5px;
+    }
+    .input{
+        margin-top: 5px;
+    }
+    
+}
+
+@media(max-width:610px){
+    .card2{
+        display:inline-block;
+    }
+    .d-block-{
+       display: block;
+    }
+}
